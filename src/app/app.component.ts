@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'qa-practicies';
+  contador:number=0;
+  public incrementar (): void{
+    this.contador=this.contador+1;
+    //this.contador++;
+    
+  }
 }
+
